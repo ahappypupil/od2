@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OD2 Unit 8: Bandar, the Greedy Monkey</title>
+<link rel="stylesheet" href="style.css">
+<script>function toggleAnswer(id){var c=document.getElementById(id),b=c.previousElementSibling;var show=!c.classList.contains('show');c.classList.toggle('show');b.classList.toggle('show');b.innerHTML=show?'隐藏答案 ✖':'显示答案 ✔';}</script>
+<script src="ppt.js"></script>
+</head>
+<body><div class="deck">
+
+<div class="slide slide-cover"><div class="unit-badge">Unit 8 · Big Question 4</div><h1>Bandar, the Greedy Monkey</h1><h2>贪婪的猴子 Bandar</h2><p style="opacity:.7;font-size:1.1em;">Big Question: When do we use subtraction?<br>我们什么时候用减法？</p></div>
+
+<div class="slide"><h2 class="slide-title">本单元目录</h2>
+<div class="card-grid">
+<div class="card"><h4>📖 一、单词复习</h4><p>故事词汇、身体部位词</p></div>
+<div class="card"><h4>🔗 二、重点句型</h4><p>不规则动词过去时疑问句</p></div>
+<div class="card"><h4>📝 三、语法梳理</h4><p>不规则动词过去式疑问句</p></div>
+<div class="card"><h4>🎤 四、词法知识</h4><p>缩写 Contractions</p></div>
+<div class="card"><h4>✏️ 五、单词练习</h4><p>选择、填空、分类、翻译</p></div>
+<div class="card"><h4>✏️ 六、句型与语法练习</h4><p>填空、选择、连词成句、阅读</p></div>
+</div><span class="page-num">1</span></div>
+
+<div class="slide"><h2 class="slide-title">一、单词复习 — 故事词汇</h2>
+<table class="vocab-table"><tr><th style="width:25%">English</th><th style="width:25%">中文</th><th style="width:25%">English</th><th>中文</th></tr>
+<tr><td class="en">let go</td><td>放手</td><td class="en">steal</td><td>偷</td></tr>
+<tr><td class="en">dig up</td><td>挖出</td><td class="en">hide</td><td>藏</td></tr>
+<tr><td class="en">jar</td><td>罐子</td><td class="en">greedy</td><td>贪婪的</td></tr>
+<tr><td class="en">bored</td><td>无聊的</td><td class="en">baker</td><td>面包师</td></tr>
+<tr><td class="en">cook</td><td>厨师</td><td class="en">candy maker</td><td>糖果师</td></tr>
+</table>
+<div class="highlight-box"><div class="title">💡 故事梗概</div><p>Bandar 是一只贪婪的猴子。他偷了面包师的饼干、厨师的香肠。他把手伸进糖果罐里抓了太多糖果，手拔不出来。他不愿放手，被抓住了。最后他放开了手才逃脱。</p></div>
+<span class="page-num">2</span></div>
+
+<div class="slide"><h2 class="slide-title">一、单词复习 — 身体部位（听力）</h2>
+<table class="vocab-table"><tr><th style="width:25%">English</th><th style="width:25%">中文</th><th style="width:25%">English</th><th>中文</th></tr>
+<tr><td class="en">knee</td><td>膝盖</td><td class="en">nose</td><td>鼻子</td></tr>
+<tr><td class="en">foot</td><td>脚</td><td class="en">arm</td><td>手臂</td></tr>
+<tr><td class="en">face</td><td>脸</td><td class="en">hand</td><td>手</td></tr>
+</table>
+<div class="highlight-box"><div class="title">💡 猜词游戏</div>
+<p>• Most animals don't have these but orangutans have very long ones. → <b>arms</b><br>
+• People and animals use it to smell. → <b>nose</b><br>
+• People use these to clap. → <b>hands</b><br>
+• Your eyes, nose, and mouth are on this. → <b>face</b><br>
+• We put sneakers on these. → <b>feet</b><br>
+• This is in the middle of your leg. → <b>knee</b></p></div>
+<span class="page-num">3</span></div>
+
+<div class="slide"><h2 class="slide-title">二、重点句型</h2>
+<div class="pattern-box"><div class="pattern-en">Did Bandar go to a candy store?</div><div class="pattern-ex">Yes, he did.</div></div>
+<div class="pattern-box"><div class="pattern-en">Did he let go of the candy?</div><div class="pattern-ex">No, he didn't.</div></div>
+<div class="pattern-box"><div class="pattern-en">Bandar didn't let go of the candy.</div><div class="pattern-cn">Bandar 没有放开糖果。</div></div>
+<div class="pattern-box"><div class="pattern-en">Karen doesn't like fruit salad.</div><div class="pattern-cn">Karen 不喜欢水果沙拉。</div></div>
+<div class="pattern-box"><div class="pattern-en">Twenty cows sat in some trees. Five fell down and hurt their knees. How many cows were left in the trees?</div></div>
+<span class="page-num">4</span></div>
+
+<div class="slide"><h2 class="slide-title">三、语法梳理 — 不规则动词过去式疑问句</h2>
+<div class="grammar-box"><div class="title">✅ Did + 主语 + 动词原形?</div>
+<table class="vocab-table" style="margin-top:10px">
+<tr><th>疑问句</th><th>回答</th></tr>
+<tr><td>Did Bandar <b>go</b> to a candy store?</td><td>Yes, he <b>did</b>.</td></tr>
+<tr><td>Did he <b>let go</b> of the candy?</td><td>No, he <b>didn't</b>.</td></tr>
+<tr><td>Did he <b>steal</b> cookies?</td><td>Yes, he <b>did</b>.</td></tr>
+</table></div>
+<div class="tip-box"><div class="title">⚠️ 关键</div>
+<p>• Did 后面用<b>动词原形</b>：Did he go? ✅ (不是 Did he went? ❌)<br>
+• didn't 后面也用<b>动词原形</b>：He didn't let go. ✅</p></div>
+<span class="page-num">5</span></div>
+
+<div class="slide"><h2 class="slide-title">四、词法知识 — 缩写 Contractions</h2>
+<div class="grammar-box"><div class="title">✅ 缩写复习</div></div>
+<table class="vocab-table">
+<tr><th>完整形式</th><th>缩写</th><th>例句</th></tr>
+<tr><td>did + not</td><td>didn't</td><td>Bandar <b>didn't</b> let go of the candy.</td></tr>
+<tr><td>does + not</td><td>doesn't</td><td>Karen <b>doesn't</b> like fruit salad.</td></tr>
+<tr><td>is + not</td><td>isn't</td><td>Water <b>isn't</b> a gas.</td></tr>
+<tr><td>was + not</td><td>wasn't</td><td>It <b>wasn't</b> a liquid.</td></tr>
+<tr><td>were + not</td><td>weren't</td><td>They <b>weren't</b> happy.</td></tr>
+</table>
+<span class="page-num">6</span></div>
+
+<div class="slide slide-section"><div class="icon">✏️</div><h2>五、单词练习</h2></div>
+
+<div class="slide"><h2 class="slide-title">练习 1：选择题</h2>
+<div class="exercise"><ol>
+<li>People who work in a kitchen: ______<br><span class="options"><label>A. baker, cook</label> <label>B. baker, jar</label> <label>C. cook, jar</label></span></li>
+<li>When it rains, I feel ______ and don't know what to do.<br><span class="options"><label>A. greedy</label> <label>B. bored</label> <label>C. brave</label></span></li>
+<li>He puts money in a ______ every day.<br><span class="options"><label>A. jar</label> <label>B. baker</label> <label>C. candy</label></span></li>
+<li>Bandar ______ a cookie from the bakery.<br><span class="options"><label>A. stole</label> <label>B. hide</label> <label>C. let go</label></span></li>
+<li>People use these to clap. → ______<br><span class="options"><label>A. hands</label> <label>B. feet</label> <label>C. knees</label></span></li>
+<li>We put sneakers on these. → ______<br><span class="options"><label>A. arms</label> <label>B. feet</label> <label>C. nose</label></span></li>
+</ol>
+<button class="answer-toggle" onclick="toggleAnswer('a1')">显示答案 ✔</button>
+<div class="answer-content" id="a1">1. A 2. B 3. A 4. A 5. A 6. B</div></div>
+<span class="page-num">7</span></div>
+
+<div class="slide"><h2 class="slide-title">练习 2：身体部位填空</h2>
+<div class="exercise"><p style="margin-bottom:10px;color:#888;">词库：knee / nose / foot / arm / face / hand</p>
+<ol>
+<li>Most animals don't have these but orangutans have very long ones. → <span class="blank" style="min-width:80px"></span></li>
+<li>People and animals use it to smell. → <span class="blank" style="min-width:80px"></span></li>
+<li>People use these to clap. → <span class="blank" style="min-width:80px"></span></li>
+<li>Your eyes, nose, and mouth are on this. → <span class="blank" style="min-width:80px"></span></li>
+<li>We put sneakers on these. → <span class="blank" style="min-width:80px"></span></li>
+<li>This is in the middle of your leg. → <span class="blank" style="min-width:80px"></span></li>
+</ol>
+<button class="answer-toggle" onclick="toggleAnswer('a2')">显示答案 ✔</button>
+<div class="answer-content" id="a2">1. arms 2. nose 3. hands 4. face 5. feet 6. knee</div></div>
+<span class="page-num">8</span></div>
+
+<div class="slide"><h2 class="slide-title">练习 3：英汉互译</h2>
+<div class="exercise"><table class="vocab-table">
+<tr><th>序号</th><th>题目</th><th>你的答案</th></tr>
+<tr><td>1</td><td>贪婪的</td><td style="height:30px"></td></tr>
+<tr><td>2</td><td>偷</td><td></td></tr>
+<tr><td>3</td><td>放手</td><td></td></tr>
+<tr><td>4</td><td>无聊的</td><td></td></tr>
+<tr><td>5</td><td>jar</td><td></td></tr>
+<tr><td>6</td><td>baker</td><td></td></tr>
+<tr><td>7</td><td>knee</td><td></td></tr>
+<tr><td>8</td><td>arm</td><td></td></tr>
+</table>
+<button class="answer-toggle" onclick="toggleAnswer('a3')">显示答案 ✔</button>
+<div class="answer-content" id="a3">1. greedy 2. steal 3. let go 4. bored 5. 罐子 6. 面包师 7. 膝盖 8. 手臂</div></div>
+<span class="page-num">9</span></div>
+
+<div class="slide slide-section"><div class="icon">✏️</div><h2>六、句型与语法练习</h2></div>
+
+<div class="slide"><h2 class="slide-title">练习 1：Did 疑问句</h2>
+<div class="exercise"><ol>
+<li>______ Bandar go to a candy store? Yes, he did.</li>
+<li>______ he let go of the candy? No, he didn't.</li>
+<li>______ he steal cookies? Yes, he did.</li>
+<li>______ he dig up the jar? No, he didn't.</li>
+<li>______ the baker chase him? Yes, he did.</li>
+</ol>
+<button class="answer-toggle" onclick="toggleAnswer('b1')">显示答案 ✔</button>
+<div class="answer-content" id="b1">1. Did 2. Did 3. Did 4. Did 5. Did</div></div>
+<span class="page-num">10</span></div>
+
+<div class="slide"><h2 class="slide-title">练习 2：动词原形填空</h2>
+<div class="exercise"><ol>
+<li>Did Bandar ______ to a candy store? (go)</li>
+<li>Did he ______ go of the candy? (let)</li>
+<li>Did he ______ cookies? (steal)</li>
+<li>Did he ______ up the jar? (dig)</li>
+<li>Did the baker ______ him? (chase)</li>
+<li>He didn't ______ go of the candy. (let)</li>
+</ol>
+<button class="answer-toggle" onclick="toggleAnswer('b2')">显示答案 ✔</button>
+<div class="answer-content" id="b2">1. go 2. let 3. steal 4. dig 5. chase 6. let</div></div>
+<span class="page-num">11</span></div>
+
+<div class="slide"><h2 class="slide-title">练习 3：选择题</h2>
+<div class="exercise"><ol>
+<li>Did Bandar ______ to a candy store?<br><span class="options"><label>A. went</label> <label>B. go</label> <label>C. goes</label></span></li>
+<li>Did he let go of the candy? No, he ______.<br><span class="options"><label>A. did</label> <label>B. didn't</label> <label>C. don't</label></span></li>
+<li>Bandar ______ a cookie from the bakery.<br><span class="options"><label>A. stole</label> <label>B. steal</label> <label>C. stealed</label></span></li>
+<li>He ______ his hands in the jars.<br><span class="options"><label>A. put</label> <label>B. putted</label> <label>C. puts</label></span></li>
+<li>He didn't ______ go of the candy.<br><span class="options"><label>A. let</label> <label>B. letted</label> <label>C. lets</label></span></li>
+<li>Karen ______ like fruit salad.<br><span class="options"><label>A. doesn't</label> <label>B. didn't</label> <label>C. isn't</label></span></li>
+</ol>
+<button class="answer-toggle" onclick="toggleAnswer('b3')">显示答案 ✔</button>
+<div class="answer-content" id="b3">1. B 2. B 3. A 4. A 5. A 6. A</div></div>
+<span class="page-num">12</span></div>
+
+<div class="slide"><h2 class="slide-title">练习 4：连词成句</h2>
+<div class="exercise"><ol>
+<li>did / go / Bandar / candy store / a / to / ? (→) <span class="blank" style="min-width:250px"></span></li>
+<li>did / he / let / of / go / candy / the / ? (→) <span class="blank" style="min-width:250px"></span></li>
+<li>candy / of / didn't / let / he / go / the (.) → <span class="blank" style="min-width:250px"></span></li>
+<li>from / bakery / stole / a / he / cookie (.) → <span class="blank" style="min-width:250px"></span></li>
+<li>jar / hands / he / in / put / the / his (.) → <span class="blank" style="min-width:250px"></span></li>
+</ol>
+<button class="answer-toggle" onclick="toggleAnswer('b4')">显示答案 ✔</button>
+<div class="answer-content" id="b4">1. Did Bandar go to a candy store? 2. Did he let go of the candy? 3. He didn't let go of the candy. 4. He stole a cookie from the bakery. 5. He put his hands in the jar.</div></div>
+<span class="page-num">13</span></div>
+
+<div class="slide"><h2 class="slide-title">练习 5：阅读理解</h2>
+<div class="exercise">
+<div class="highlight-box" style="margin-bottom:15px"><p>A monkey called Bandar lived in the woods near a small town. One day, Bandar was bored and decided to go into the town. Bandar went to a bakery and saw thirty beautiful cookies. He stole a cookie and ate it. It was good! He ate more and more cookies! The baker saw Bandar and chased him. "You greedy little monkey!" he cried.<br><br>Then Bandar went to the candy store. He saw two big jars of candy. Bandar put his hands in the jars and grabbed lots of candy. But his hands were too full and he couldn't get them out of the jars! He didn't let go of the candy. The candy maker caught him.</p></div>
+<ol>
+<li>Why did Bandar go to the town? → Because he was ______.</li>
+<li>What did Bandar steal from the bakery? → ______.</li>
+<li>What did the baker call Bandar? → A ______ little monkey.</li>
+<li>Why couldn't Bandar get his hands out? → Because his hands were too ______.</li>
+<li>Did Bandar let go of the candy? → No, he ______.</li>
+</ol>
+<button class="answer-toggle" onclick="toggleAnswer('b5')">显示答案 ✔</button>
+<div class="answer-content" id="b5">1. bored 2. Cookies. 3. greedy 4. full 5. didn't</div></div>
+<span class="page-num">14</span></div>
+
+<div class="slide slide-cover"><h1>🎉</h1><h2>Unit 8 学习完成！</h2><p style="opacity:.7;font-size:1.1em;">重点回顾：不规则动词过去式疑问句、缩写、贪婪猴子故事</p></div>
+
+</div></body></html>

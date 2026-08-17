@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oxford Discover 2 - Unit 1: Amazing Animals</title>
+<link rel="stylesheet" href="style.css">
+<script>
+function toggleAnswer(id){var c=document.getElementById(id),b=c.previousElementSibling;var show=!c.classList.contains('show');c.classList.toggle('show');b.classList.toggle('show');b.innerHTML=show?'隐藏答案 ✖':'显示答案 ✔';}
+</script>
+<script src="ppt.js"></script>
+</head>
+<body>
+<div class="deck">
+
+<!-- ===== 封面 ===== -->
+<div class="slide slide-cover">
+  <div class="unit-badge">Unit 1 · Big Question 1</div>
+  <h1>Amazing Animals</h1>
+  <h2>神奇的动物</h2>
+  <p style="opacity:.7; font-size:1.1em;">How are animals different from one another?<br>动物之间有什么不同？</p>
+</div>
+
+<!-- ===== 目录 ===== -->
+<div class="slide">
+  <h2 class="slide-title">本单元目录</h2>
+  <div class="card-grid">
+    <div class="card"><h4>📖 一、单词复习</h4><p>动物分类词、动物身体部位词、性格形容词、合成词</p></div>
+    <div class="card"><h4>🔗 二、重点句型</h4><p>描述动物特征：…have … to help them …</p></div>
+    <div class="card"><h4>📝 三、语法梳理</h4><p>主格与宾格代词 Subject & Object Pronouns</p></div>
+    <div class="card"><h4>🎤 四、语音/词法</h4><p>合成词 Compound Words</p></div>
+    <div class="card"><h4>✏️ 五、单词练习</h4><p>选择、填空、连线、英汉互译、分类</p></div>
+    <div class="card"><h4>✏️ 六、句型与语法练习</h4><p>填空、选择、连词成句、补全对话、改错、阅读</p></div>
+  </div>
+  <span class="page-num">1</span>
+</div>
+
+<!-- ===== 单词复习：Reading Words ===== -->
+<div class="slide">
+  <h2 class="slide-title">一、单词复习 — 阅读词汇（动物分类 & 身体特征）</h2>
+  <table class="vocab-table">
+    <tr><th style="width:25%">English</th><th style="width:25%">中文</th><th style="width:25%">English</th><th>中文</th></tr>
+    <tr><td class="en">skin</td><td>皮肤</td><td class="en">mammals</td><td>哺乳动物</td></tr>
+    <tr><td class="en">eggs</td><td>蛋/卵</td><td class="en">amphibians</td><td>两栖动物</td></tr>
+    <tr><td class="en">scales</td><td>鳞片</td><td class="en">gills</td><td>鳃</td></tr>
+    <tr><td class="en">feathers</td><td>羽毛</td><td class="en">wings</td><td>翅膀</td></tr>
+    <tr><td class="en">fur</td><td>毛/绒毛</td><td class="en">breathe</td><td>呼吸</td></tr>
+    <tr><td class="en">lay eggs</td><td>产卵</td><td class="en">safe</td><td>安全的</td></tr>
+  </table>
+  <div class="highlight-box">
+    <div class="title">💡 四大动物分类</div>
+    <p>🦅 <b>Birds</b>（鸟类）— have feathers, wings, lay eggs with hard shells<br>
+    🐟 <b>Fish</b>（鱼类）— have gills, scales, live in water<br>
+    🐸 <b>Amphibians</b>（两栖动物）— wet skin, live on land & in water, lay soft eggs in water<br>
+    🐰 <b>Mammals</b>（哺乳动物）— have fur/hair, babies drink milk, people are mammals too!</p>
+  </div>
+  <span class="page-num">2</span>
+</div>
+
+<!-- ===== 单词复习：Listening Words ===== -->
+<div class="slide">
+  <h2 class="slide-title">一、单词复习 — 听力词汇（动物身体部位）</h2>
+  <table class="vocab-table">
+    <tr><th style="width:25%">English</th><th style="width:25%">中文</th><th style="width:25%">English</th><th>中文</th></tr>
+    <tr><td class="en">head</td><td>头</td><td class="en">eye</td><td>眼睛</td></tr>
+    <tr><td class="en">ear</td><td>耳朵</td><td class="en">mouth</td><td>嘴</td></tr>
+    <tr><td class="en">leg</td><td>腿</td><td class="en">body</td><td>身体</td></tr>
+  </table>
+  <div class="highlight-box">
+    <div class="title">💡 动物身体部位例句</div>
+    <p>• Eyes, ears, and mouth are on the <b>head</b> for most animals.<br>
+    • Most animals have two <b>eyes</b> to see with.<br>
+    • A tiger's <b>legs</b> help move its <b>body</b> from place to place.<br>
+    • Elephants have two big <b>ears</b> but fish don't have any.</p>
+  </div>
+  <span class="page-num">3</span>
+</div>
+
+<!-- ===== 单词复习：Story Words & Adjectives ===== -->
+<div class="slide">
+  <h2 class="slide-title">一、单词复习 — 故事词汇 & 性格形容词</h2>
+  <h3 style="color:#667eea; margin-bottom:10px">故事词汇（Unit 2 Leo and Lily's Adventure）</h3>
+  <table class="vocab-table">
+    <tr><th style="width:25%">English</th><th style="width:25%">中文</th><th style="width:25%">English</th><th>中文</th></tr>
+    <tr><td class="en">worm</td><td>虫子</td><td class="en">berries</td><td>浆果</td></tr>
+    <tr><td class="en">hunt</td><td>捕猎</td><td class="en">escape</td><td>逃跑</td></tr>
+    <tr><td class="en">creep</td><td>悄悄爬行</td><td class="en">fight</td><td>打斗</td></tr>
+    <tr><td class="en">peck</td><td>啄</td><td class="en">pinecone</td><td>松果</td></tr>
+    <tr><td class="en">squawk</td><td>尖叫</td><td class="en">clever</td><td>聪明的</td></tr>
+  </table>
+  <h3 style="color:#667eea; margin-bottom:10px; margin-top:20px">性格形容词</h3>
+  <table class="vocab-table">
+    <tr><th style="width:25%">English</th><th style="width:25%">中文</th><th style="width:25%">English</th><th>中文</th></tr>
+    <tr><td class="en">strong</td><td>强壮的</td><td class="en">gentle</td><td>温和的</td></tr>
+    <tr><td class="en">patient</td><td>有耐心的</td><td class="en">smart</td><td>聪明的</td></tr>
+    <tr><td class="en">calm</td><td>冷静的</td><td class="en">fierce</td><td>凶猛的</td></tr>
+  </table>
+  <span class="page-num">4</span>
+</div>
+
+<!-- ===== 重点句型 ===== -->
+<div class="slide">
+  <h2 class="slide-title">二、重点句型</h2>
+  <div class="pattern-box">
+    <div class="pattern-en">… have … to help them …</div>
+    <div class="pattern-cn">……有……来帮助它们……</div>
+    <div class="pattern-ex">e.g. Fish have gills to help them breathe.（鱼有鳃来帮助它们呼吸。）</div>
+  </div>
+  <div class="pattern-box">
+    <div class="pattern-en">Birds have wings to help them fly.</div>
+    <div class="pattern-ex">e.g. Birds have wings and feathers to help them fly.</div>
+  </div>
+  <div class="pattern-box">
+    <div class="pattern-en">… lay eggs with (hard/soft) shells.</div>
+    <div class="pattern-cn">……产有（硬/软）壳的卵。</div>
+    <div class="pattern-ex">e.g. Birds lay eggs with hard shells. / Amphibians lay soft eggs in water.</div>
+  </div>
+  <div class="pattern-box">
+    <div class="pattern-en">… are part of this group.</div>
+    <div class="pattern-cn">……属于这一类。</div>
+    <div class="pattern-ex">e.g. An elephant and an orangutan are part of this group. (mammals)</div>
+  </div>
+  <div class="pattern-box">
+    <div class="pattern-en">— What's your favorite part? — …</div>
+    <div class="pattern-cn">— 你最喜欢的部分是什么？ — …</div>
+    <div class="pattern-ex">e.g. — What's your favorite part? — Frogs have wet skin. That's cool!</div>
+  </div>
+  <div class="pattern-box">
+    <div class="pattern-en">Eagles have feathers and wings to help them fly. What animal group are they in?</div>
+    <div class="pattern-ex">— Eagles are in the bird group. They're in the bird group.</div>
+  </div>
+  <span class="page-num">5</span>
+</div>
+
+<!-- ===== 语法梳理 ===== -->
+<div class="slide">
+  <h2 class="slide-title">三、语法梳理 — 主格与宾格代词</h2>
+  <div class="grammar-box">
+    <div class="title">✅ Subject Pronouns（主格代词）</div>
+    <p>主格代词做<b>主语</b>，放在动词前面，表示"谁"做了某事。</p>
+    <table class="vocab-table" style="margin-top:10px">
+      <tr><th>人称</th><th>主格</th><th>例句</th></tr>
+      <tr><td>第一人称单数</td><td>I</td><td><b>I</b> like animals.</td></tr>
+      <tr><td>第二人称</td><td>you</td><td><b>You</b> are smart.</td></tr>
+      <tr><td>第三人称单数</td><td>he / she / it</td><td><b>He</b> is brave. / <b>It</b> is a fish.</td></tr>
+      <tr><td>第一人称复数</td><td>we</td><td><b>We</b> love animals!</td></tr>
+      <tr><td>第三人称复数</td><td>they</td><td><b>They</b> have gills.</td></tr>
+    </table>
+  </div>
+  <div class="grammar-box" style="border-left-color:#fa8c16; background:#fff7e6">
+    <div class="title" style="color:#d48806">✅ Object Pronouns（宾格代词）</div>
+    <p>宾格代词做<b>宾语</b>，放在动词或介词后面，表示动作的"承受者"。</p>
+    <table class="vocab-table" style="margin-top:10px">
+      <tr><th>主格</th><th>宾格</th><th>例句</th></tr>
+      <tr><td>I</td><td>me</td><td>Gills help <b>them</b> breathe.</td></tr>
+      <tr><td>you</td><td>you</td><td>I like <b>you</b>.</td></tr>
+      <tr><td>he</td><td>him</td><td>The fox wants to eat <b>him</b>.</td></tr>
+      <tr><td>she</td><td>her</td><td>Babies drink milk from <b>her</b>.</td></tr>
+      <tr><td>it</td><td>it</td><td>I love <b>it</b>!</td></tr>
+      <tr><td>we</td><td>us</td><td>They help <b>us</b>.</td></tr>
+      <tr><td>they</td><td>them</td><td>Gills help <b>them</b> breathe in water.</td></tr>
+    </table>
+  </div>
+  <span class="page-num">6</span>
+</div>
+
+<div class="slide">
+  <h2 class="slide-title">三、语法梳理 — 对比与例句</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h4>📌 主格做主语</h4>
+      <p>Fish have gills.<br>→ <b>They</b> have gills.<br><br>Birds have wings.<br>→ <b>They</b> have wings.<br><br>Lily is nervous.<br>→ <b>She</b> is usually nervous.</p>
+    </div>
+    <div class="card">
+      <h4>📌 宾格做宾语</h4>
+      <p>Gills help fish breathe.<br>→ Gills help <b>them</b> breathe.<br><br>The fox wants to eat Leo.<br>→ The fox wants to eat <b>him</b>.<br><br>Babies drink milk from mother.<br>→ Babies drink milk from <b>her</b>.</p>
+    </div>
+    <div class="card">
+      <h4>📌 混合练习</h4>
+      <p>Fish have gills. <b>They</b> have gills. Gills help <b>them</b> breathe.<br><br>Rabbits are gentle. <b>They</b> are very gentle.<br><br>Leo is clever. <b>He</b> is very clever.</p>
+    </div>
+  </div>
+  <div class="tip-box">
+    <div class="title">⚠️ 关键规则</div>
+    <p>• <b>主格</b>放在动词<b>前面</b>（做主语）：They have gills.<br>
+    • <b>宾格</b>放在动词或介词<b>后面</b>（做宾语）：Gills help them breathe.<br>
+    • 用代词代替前面提到过的名词，避免重复：<br>
+    &nbsp;&nbsp;Fish → They（不用 It，因为 fish 这里是复数）<br>
+    &nbsp;&nbsp;Leo → He / him</p>
+  </div>
+  <span class="page-num">7</span>
+</div>
+
+<!-- ===== Word Study ===== -->
+<div class="slide">
+  <h2 class="slide-title">四、词法知识 — 合成词 Compound Words</h2>
+  <div class="grammar-box">
+    <div class="title">✅ 什么是合成词？</div>
+    <p>合成词是由两个单词拼在一起组成的一个新词。</p>
+  </div>
+  <table class="vocab-table">
+    <tr><th>单词1</th><th>+</th><th>单词2</th><th>=</th><th>合成词</th><th>中文</th></tr>
+    <tr><td>star</td><td>+</td><td>fish</td><td>=</td><td class="en">starfish</td><td>海星</td></tr>
+    <tr><td>honey</td><td>+</td><td>bee</td><td>=</td><td class="en">honeybee</td><td>蜜蜂</td></tr>
+    <tr><td>snow</td><td>+</td><td>flake</td><td>=</td><td class="en">snowflake</td><td>雪花</td></tr>
+    <tr><td>butter</td><td>+</td><td>fly</td><td>=</td><td class="en">butterfly</td><td>蝴蝶</td></tr>
+    <tr><td>bird</td><td>+</td><td>house</td><td>=</td><td class="en">birdhouse</td><td>鸟窝</td></tr>
+  </table>
+  <div class="highlight-box">
+    <div class="title">💡 合成词小练习</div>
+    <p>试着拼出这些合成词：<br>
+    sun + flower = <span class="blank" style="min-width:120px"></span><br>
+    rain + bow = <span class="blank" style="min-width:120px"></span><br>
+    pine + cone = <span class="blank" style="min-width:120px"></span></p>
+  </div>
+  <span class="page-num">8</span>
+</div>
+
+<!-- ===== 单词练习 ===== -->
+<div class="slide slide-section">
+  <div class="icon">✏️</div>
+  <h2>五、单词练习</h2>
+</div>
+
+<div class="slide">
+  <h2 class="slide-title">练习 1：选择题</h2>
+  <div class="exercise">
+    <ol>
+      <li>Birds have two of these. Orangutans don't have these. → ______<br>
+        <span class="options"><label>A. wings</label> <label>B. gills</label> <label>C. fur</label></span></li>
+      <li>Chickens lay these. Some people eat them in the morning. → ______<br>
+        <span class="options"><label>A. scales</label> <label>B. eggs</label> <label>C. feathers</label></span></li>
+      <li>An elephant and an orangutan are part of this group. → ______<br>
+        <span class="options"><label>A. amphibians</label> <label>B. mammals</label> <label>C. fish</label></span></li>
+      <li>Frogs are part of this group. → ______<br>
+        <span class="options"><label>A. mammals</label> <label>B. birds</label> <label>C. amphibians</label></span></li>
+      <li>Many animals that live in water have these to help them breathe. → ______<br>
+        <span class="options"><label>A. gills</label> <label>B. wings</label> <label>C. feathers</label></span></li>
+      <li>These are all over animals' bodies. → ______ (提示：皮肤)<br>
+        <span class="options"><label>A. skin</label> <label>B. fur</label> <label>C. scales</label></span></li>
+    </ol>
+    <button class="answer-toggle" onclick="toggleAnswer('a1')">显示答案 ✔</button>
+    <div class="answer-content" id="a1">1. A (wings) 2. B (eggs) 3. B (mammals) 4. C (amphibians) 5. A (gills) 6. A (skin)</div>
+  </div>
+  <span class="page-num">9</span>
+</div>
+
+<div class="slide">
+  <h2 class="slide-title">练习 2：动物与特征匹配</h2>
+  <div class="exercise">
+    <table class="match-table">
+      <tr><td style="width:20%"><b>Birds</b></td><td style="width:5%"></td><td style="width:30%">A. have fur, babies drink milk</td></tr>
+      <tr><td><b>Fish</b></td><td></td><td>B. have feathers, wings, lay eggs with hard shells</td></tr>
+      <tr><td><b>Amphibians</b></td><td></td><td>C. have gills, scales, live in water</td></tr>
+      <tr><td><b>Mammals</b></td><td></td><td>D. wet skin, live on land & in water, lay soft eggs</td></tr>
+    </table>
+    <button class="answer-toggle" onclick="toggleAnswer('a2')">显示答案 ✔</button>
+    <div class="answer-content" id="a2">Birds → B | Fish → C | Amphibians → D | Mammals → A</div>
+  </div>
+  <span class="page-num">10</span>
+</div>
+
+<div class="slide">
+  <h2 class="slide-title">练习 3：身体部位填空</h2>
+  <div class="exercise">
+    <p style="margin-bottom:10px; color:#888;">词库：head / eye / ear / mouth / leg / body</p>
+    <ol>
+      <li>Some animals have two of these and some have four. → <span class="blank" style="min-width:80px"></span></li>
+      <li>Eyes, ears, and mouth are on this for most animals. → <span class="blank" style="min-width:80px"></span></li>
+      <li>Most animals have two of these to see with. → <span class="blank" style="min-width:80px"></span></li>
+      <li>This body part can open and close. Most animals eat with this. → <span class="blank" style="min-width:80px"></span></li>
+      <li>Elephants have two big ones but fish don't have any. → <span class="blank" style="min-width:80px"></span></li>
+      <li>A tiger's legs help move this from place to place. → <span class="blank" style="min-width:80px"></span></li>
+    </ol>
+    <button class="answer-toggle" onclick="toggleAnswer('a3')">显示答案 ✔</button>
+    <div class="answer-content" id="a3">1. legs 2. head 3. eyes 4. mouth 5. ears 6. body</div>
+  </div>
+  <span class="page-num">11</span>
+</div>
+
+<div class="slide">
+  <h2 class="slide-title">练习 4：性格形容词判断（True/False）</h2>
+  <div class="exercise">
+    <ol>
+      <li>An elephant can be big and strong. → True / False</li>
+      <li>A lion is always gentle and calm. → True / False</li>
+      <li>A dog can be fierce and patient. → True / False</li>
+      <li>A monkey can be smart. → True / False</li>
+      <li>A mouse is always strong and fierce. → True / False</li>
+    </ol>
+    <button class="answer-toggle" onclick="toggleAnswer('a4')">显示答案 ✔</button>
+    <div class="answer-content" id="a4">1. True 2. False (lions are fierce, not gentle) 3. True 4. True 5. False (mice are small, not strong)</div>
+  </div>
+  <span class="page-num">12</span>
+</div>
+
+<div class="slide">
+  <h2 class="slide-title">练习 5：合成词</h2>
+  <div class="exercise">
+    <h3>将两个单词合成一个新词</h3>
+    <ol>
+      <li>star + fish = <span class="blank" style="min-width:120px"></span></li>
+      <li>honey + bee = <span class="blank" style="min-width:120px"></span></li>
+      <li>snow + flake = <span class="blank" style="min-width:120px"></span></li>
+      <li>butter + fly = <span class="blank" style="min-width:120px"></span></li>
+      <li>bird + house = <span class="blank" style="min-width:120px"></span></li>
+      <li>sun + flower = <span class="blank" style="min-width:120px"></span></li>
+      <li>pine + cone = <span class="blank" style="min-width:120px"></span></li>
+      <li>rain + bow = <span class="blank" style="min-width:120px"></span></li>
+    </ol>
+    <button class="answer-toggle" onclick="toggleAnswer('a5')">显示答案 ✔</button>
+    <div class="answer-content" id="a5">1. starfish 2. honeybee 3. snowflake 4. butterfly 5. birdhouse 6. sunflower 7. pinecone 8. rainbow</div>
+  </div>
+  <span class="page-num">13</span>
+</div>
+
+<div class="slide">
+  <h2 class="slide-title">练习 6：英汉互译</h2>
+  <div class="exercise">
+    <table class="vocab-table">
+      <tr><th>序号</th><th>题目</th><th>你的答案</th></tr>
+      <tr><td>1</td><td>哺乳动物</td><td style="height:30px"></td></tr>
+      <tr><td>2</td><td>两栖动物</td><td></td></tr>
+      <tr><td>3</td><td>羽毛</td><td></td></tr>
+      <tr><td>4</td><td>鳞片</td><td></td></tr>
+      <tr><td>5</td><td>鳃</td><td></td></tr>
+      <tr><td>6</td><td>wings</td><td></td></tr>
+      <tr><td>7</td><td>fur</td><td></td></tr>
+      <tr><td>8</td><td>breathe</td><td></td></tr>
+    </table>
+    <button class="answer-toggle" onclick="toggleAnswer('a6')">显示答案 ✔</button>
+    <div class="answer-content" id="a6">1. mammals 2. amphibians 3. feathers 4. scales 5. gills 6. 翅膀 7. 毛/绒毛 8. 呼吸</div>
+  </div>
+  <span class="page-num">14</span>
+</div>
+
+<!-- ===== 句型与语法练习 ===== -->
+<div class="slide slide-section">
+  <div class="icon">✏️</div>
+  <h2>六、句型与语法练习</h2>
+</div>
+
+<div class="slide">
+  <h2 class="slide-title">练习 1：用主格或宾格代词填空</h2>
+  <div class="exercise">
+    <p style="margin-bottom:10px; color:#888;">词库（主格）：I, you, he, she, it, we, they &nbsp;|&nbsp; 词库（宾格）：me, you, him, her, it, us, them</p>
+    <ol>
+      <li>Fish have gills. <span class="blank" style="min-width:60px"></span> have gills.</li>
+      <li>Gills help <span class="blank" style="min-width:60px"></span> breathe. (fish)</li>
+      <li>Leo is clever. <span class="blank" style="min-width:60px"></span> is very fast.</li>
+      <li>The fox wants to eat <span class="blank" style="min-width:60px"></span>. (Leo)</li>
+      <li>Lily is nervous. <span class="blank" style="min-width:60px"></span> is usually very nervous.</li>
+      <li>The pinecone hits the fox. It hits <span class="blank" style="min-width:60px"></span> on the head.</li>
+      <li>Babies drink milk from their mothers. Milk comes from <span class="blank" style="min-width:60px"></span>.</li>
+      <li>Rabbits are gentle. <span class="blank" style="min-width:60px"></span> are very gentle.</li>
+    </ol>
+    <button class="answer-toggle" onclick="toggleAnswer('b1')">显示答案 ✔</button>
+    <div class="answer-content" id="b1">1. They (主格) 2. them (宾格) 3. He (主格) 4. him (宾格) 5. She (主格) 6. it (宾格) 7. her (宾格) 8. They (主格)</div>
+  </div>
+  <span class="page-num">15</span>
+</div>
+
+<div class="slide">
+  <h2 class="slide-title">练习 2：用代词替换画线名词</h2>
+  <div class="exercise">
+    <ol>
+      <li><u>Fish</u> have gills to help <u>fish</u> breathe. → <span class="blank" style="min-width:200px"></span></li>
+      <li><u>Birds</u> have wings to help <u>birds</u> fly. → <span class="blank" style="min-width:200px"></span></li>
+      <li><u>Mammals</u> have fur. <u>Mammals'</u> babies drink milk. → <span class="blank" style="min-width:200px"></span></li>
+      <li>The fox wants to eat <u>Leo</u>. → The fox wants to eat <span class="blank" style="min-width:80px"></span>.</li>
+      <li>Gills help <u>fish</u> breathe in water. → Gills help <span class="blank" style="min-width:80px"></span> breathe in water.</li>
+    </ol>
+    <button class="answer-toggle" onclick="toggleAnswer('b2')">显示答案 ✔</button>
+    <div class="answer-content" id="b2">
+      1. They have gills to help them breathe.<br>
+      2. They have wings to help them fly.<br>
+      3. They have fur. Their babies drink milk. / They have fur. They drink milk from their mothers.<br>
+      4. him<br>
+      5. them
+    </div>
+  </div>
+  <span class="page-num">16</span>
+</div>
+
+<div class="slide">
+  <h2 class="slide-title">练习 3：选择题</h2>
+  <div class="exercise">
+    <ol>
+      <li>Fish have gills. ______ have gills.<br>
+        <span class="options"><label>A. It</label> <label>B. They</label> <label>C. Them</label></span></li>
+      <li>Gills help ______ breathe in water.<br>
+        <span class="options"><label>A. they</label> <label>B. them</label> <label>C. their</label></span></li>
+      <li>Leo is brave. ______ climbs trees.<br>
+        <span class="options"><label>A. He</label> <label>B. Him</label> <label>C. It</label></span></li>
+      <li>The fox wants to eat ______. (Leo)<br>
+        <span class="options"><label>A. he</label> <label>B. him</label> <label>C. his</label></span></li>
+      <li>Birds have wings to help ______ fly.<br>
+        <span class="options"><label>A. they</label> <label>B. them</label> <label>C. their</label></span></li>
+      <li>______ are part of this group. (mammals)<br>
+        <span class="options"><label>A. They</label> <label>B. Them</label> <label>C. It</label></span></li>
+      <li>Lily pecks a pinecone. ______ hits the fox.<br>
+        <span class="options"><label>A. It</label> <label>B. She</label> <label>C. They</label></span></li>
+      <li>Babies drink milk from their mothers. Milk comes from ______.<br>
+        <span class="options"><label>A. she</label> <label>B. her</label> <label>C. them</label></span></li>
+    </ol>
+    <button class="answer-toggle" onclick="toggleAnswer('b3')">显示答案 ✔</button>
+    <div class="answer-content" id="b3">1. B 2. B 3. A 4. B 5. B 6. A 7. A 8. B</div>
+  </div>
+  <span class="page-num">17</span>
+</div>
+
+<div class="slide">
+  <h2 class="slide-title">练习 4：连词成句</h2>
+  <div class="exercise">
+    <ol>
+      <li>have / fish / breathe / gills / them / to / help (.) → <span class="blank" style="min-width:320px"></span></li>
+      <li>they / gills / have (.) → <span class="blank" style="min-width:320px"></span></li>
+      <li>wings / birds / help / fly / have / them / to (.) → <span class="blank" style="min-width:320px"></span></li>
+      <li>group / they / in / bird / the / are (.) → <span class="blank" style="min-width:320px"></span></li>
+      <li>mammals / fur / have / them / warm / keep / to (.) → <span class="blank" style="min-width:320px"></span></li>
+      <li>eat / fox / him / wants / the / to (.) → <span class="blank" style="min-width:320px"></span></li>
+    </ol>
+    <button class="answer-toggle" onclick="toggleAnswer('b4')">显示答案 ✔</button>
+    <div class="answer-content" id="b4">
+      1. Fish have gills to help them breathe.<br>
+      2. They have gills.<br>
+      3. Birds have wings to help them fly.<br>
+      4. They are in the bird group.<br>
+      5. Mammals have fur to keep them warm.<br>
+      6. The fox wants to eat him.
+    </div>
+  </div>
+  <span class="page-num">18</span>
+</div>
+
+<div class="slide">
+  <h2 class="slide-title">练习 5：补全对话</h2>
+  <div class="exercise">
+    <p style="line-height:2.2; font-size:1em;">
+      A: What animal group are eagles in?<br>
+      B: <span class="blank" style="min-width:120px"></span> (1) in the bird group. They have <span class="blank" style="min-width:120px"></span> (2) and wings to help <span class="blank" style="min-width:80px"></span> (3) fly.<br>
+      A: What about fish?<br>
+      B: Fish have <span class="blank" style="min-width:80px"></span> (4) to help <span class="blank" style="min-width:80px"></span> (5) breathe in water. <span class="blank" style="min-width:80px"></span> (6) also have scales.<br>
+      A: And mammals?<br>
+      B: Mammals have <span class="blank" style="min-width:80px"></span> (7). <span class="blank" style="min-width:80px"></span> (8) babies drink milk from their mothers.
+    </p>
+    <button class="answer-toggle" onclick="toggleAnswer('b5')">显示答案 ✔</button>
+    <div class="answer-content" id="b5">1. They're / They are 2. feathers 3. them 4. gills 5. them 6. They 7. fur 8. Their / They</div>
+  </div>
+  <span class="page-num">19</span>
+</div>
+
+<div class="slide">
+  <h2 class="slide-title">练习 6：判断改错</h2>
+  <div class="exercise">
+    <ol>
+      <li>Fish have gills. Them have gills. → <span class="blank" style="min-width:250px"></span></li>
+      <li>Gills help they breathe. → <span class="blank" style="min-width:250px"></span></li>
+      <li>Leo is clever. Him is very fast. → <span class="blank" style="min-width:250px"></span></li>
+      <li>The fox wants to eat he. → <span class="blank" style="min-width:250px"></span></li>
+      <li>Birds have wings to help they fly. → <span class="blank" style="min-width:250px"></span></li>
+    </ol>
+    <button class="answer-toggle" onclick="toggleAnswer('b6')">显示答案 ✔</button>
+    <div class="answer-content" id="b6">
+      1. ✗ → <b>They</b> have gills. (主格做主语)<br>
+      2. ✗ → Gills help <b>them</b> breathe. (宾格做宾语)<br>
+      3. ✗ → <b>He</b> is very fast. (主格做主语)<br>
+      4. ✗ → The fox wants to eat <b>him</b>. (宾格做宾语)<br>
+      5. ✗ → Birds have wings to help <b>them</b> fly. (宾格做宾语)
+    </div>
+  </div>
+  <span class="page-num">20</span>
+</div>
+
+<div class="slide">
+  <h2 class="slide-title">练习 7：阅读理解</h2>
+  <div class="exercise">
+    <div class="highlight-box" style="margin-bottom:15px">
+      <p>All animals can breathe and move, but they're different in many amazing ways. Here we look at how they are the same and how they are different. This helps us put them into groups.<br><br>
+      <b>Birds</b> have two legs, two wings, and feathers. Most birds can fly. The wings and feathers help them fly and the feathers help keep them warm. Birds lay eggs with hard shells.<br><br>
+      <b>Fish</b> have gills to help them breathe in water. Scales all over their bodies help keep them safe from dangerous fish.<br><br>
+      <b>Amphibians</b> can live on land and in water. They need wet skin, so they live in wet places. They lay soft eggs in water. They have gills when they're young.<br><br>
+      <b>Mammals</b> have fur or hair. Some live on land and some live in water. Mammals don't lay eggs. Their babies drink milk from their mothers. People are mammals too!</p>
+    </div>
+    <ol>
+      <li>What do birds have to help them fly? → <span class="blank" style="min-width:120px"></span></li>
+      <li>What do fish have to help them breathe? → <span class="blank" style="min-width:120px"></span></li>
+      <li>Where do amphibians lay their eggs? → <span class="blank" style="min-width:120px"></span></li>
+      <li>What covers most mammals' bodies? → <span class="blank" style="min-width:120px"></span></li>
+      <li>What do mammal babies drink? → <span class="blank" style="min-width:120px"></span></li>
+      <li>Are people mammals? → <span class="blank" style="min-width:120px"></span></li>
+    </ol>
+    <button class="answer-toggle" onclick="toggleAnswer('b7')">显示答案 ✔</button>
+    <div class="answer-content" id="b7">
+      1. Wings and feathers. 2. Gills. 3. In water. 4. Fur or hair. 5. Milk (from their mothers). 6. Yes, they are.
+    </div>
+  </div>
+  <span class="page-num">21</span>
+</div>
+
+<!-- ===== 封底 ===== -->
+<div class="slide slide-cover">
+  <h1>🎉</h1>
+  <h2>Unit 1 学习完成！</h2>
+  <p style="opacity:.7; font-size:1.1em;">重点回顾：动物四大分类、主格与宾格代词、合成词</p>
+</div>
+
+</div>
+</body>
+</html>
